@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(185, 75%, 39%);
+}
+
+main {
+  width: 20rem;
+  height: 24rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+main img.header {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+
+main img.avatar {
+  position: absolute;
+  top: 5rem;
+  border-radius: 5rem;
+  border: 5px solid #fff;
+}
